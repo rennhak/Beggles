@@ -1,5 +1,6 @@
                                     BEGGLES
-                              Version esyscmd( `git describe --tags' )
+                              Version 0.0.1
+
 
 
 
@@ -12,12 +13,26 @@ a colorization filter automatically. Beggles takes care of these problems and al
 be colorized.
 
 Why is it called Beer Goggles? Well, beer goggles take something ugly and make it seem beautiful.
-The commandline tool can be invoked by either `beggles' or `beer' whatever sticks in your mind easier.
+The commandline tool can be invoked by either beggles or beer whatever sticks in your mind easier.
 
 
-`FEATURES'
-define(FEATURES,esyscmd( `cat FEATURES.in | sed -e "s/#.*//" -e "/^$/d" -e "s/^\*\*/    o /" -e "s/^\*/\n  o /"' ))
 FEATURES
+
+
+  o  Application
+    o  Commandline arguments interface
+    o  Supports flexible templates to handle different output
+
+  o  Feature Providing Base Libraries
+
+  o  Supported Ressources
+
+  o  Development
+
+  o  Development Base Libraries
+
+  o  Code Quality
+
 
 ON WHAT HARDWARE DOES IT RUN?
 
